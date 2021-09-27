@@ -1,20 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using business.Abstract;
 using business.Concrete;
 using data.Abstract;
 using data.Concrete;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace uiweb
+namespace UIBlog
 {
     public class Startup
     {
@@ -30,21 +25,22 @@ namespace uiweb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddScoped<ISocialService, SocialService>();
-            services.AddScoped<IAboutService, AboutService>();
+
+
             services.AddScoped<IBlogService, BlogService>();
             services.AddScoped<IAuthorService, AuthorService>();
+            services.AddScoped<IAboutService, AboutService>();
             services.AddScoped<ITagService, TagService>();
+            services.AddScoped<ISocialService,SocialService>();
+            
+            
 
-            services.AddScoped<ISocialRepo, SocialRepo>();
-            services.AddScoped<IAboutRepo, AboutRepo>();
-            services.AddScoped<IBlogRepo, BlogRepo>();
-            services.AddScoped<IAuthorRepo, AuthorRepo>();
-            services.AddScoped<ITagRepo, TagRepo>();
+            services.AddDbContext<BlogContext>(
+                options =>options.UseSqlite("Data Source= Blog.db")
+            );
 
 
 
-            services.AddDbContext<BlogContext>(options=>options.UseSqlite(_configuration.GetConnectionString("Source")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,12 +50,7 @@ namespace uiweb
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
+           
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

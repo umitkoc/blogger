@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MNEeyE/aPRzOym5MBymVVI9LJczsLMOJQzJs6M6iKne3JY4plbUxwfzna9Bi5ctnFIV4v/M1pE2Xphqj/Qvfiw==",
+  "dgSpecHash": "DG4CaTpqyfkP7nCVt++DqS2ZY9qZF09c6ZfC6D29WRCboTrXRxECQd7BstW8Rl0m0w68q2PM0NT80IyEKn3CFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj",
+  "projectFilePath": "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.10\\microsoft.data.sqlite.core.5.0.10.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

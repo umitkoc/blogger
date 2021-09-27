@@ -12,9 +12,10 @@ namespace business.Concrete
         {
          about=repo;   
         }
-        public void Delete(int id)
+
+        public void Delete(About entity)
         {
-            about.Delete(id);
+           about.Delete(entity);
         }
 
         public ICollection<About> GetAll()
@@ -22,9 +23,9 @@ namespace business.Concrete
           return about.GetAll();
         }
 
-        public About getById(int id)
+        public About GetById(int id)
         {
-            return about.getById(id);
+            return about.GetById(id);
         }
 
         public void Update(About entity)

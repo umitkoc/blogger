@@ -1,0 +1,25 @@
+@model List<BlogModel>
+@foreach (var item in Model)
+{
+    <div class="col-md-12 mb-2">
+    <div class="card">
+        <img src="~/img/@item.ImageUrl" alt="image" class="card-img-top rounded">
+        <div class="card-body">
+            <h2>@item.Title</h2>
+            <p>
+                @item.Description
+            </p>
+
+        </div>
+        <div class="row justify-content-start p-2">
+            <div class="col">
+                <a asp-controller="home" asp-action="blog" asp-route-id=@item.BlogId class="btn btn-sm btn-warning">Devamını Oku...</a>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <span> @item.Date <i class="fas fa-calendar-alt"></i></span>
+            </div>
+        </div>
+    </div>
+</div>
+    
+}

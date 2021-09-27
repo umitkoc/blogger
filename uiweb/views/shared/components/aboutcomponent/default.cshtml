@@ -1,0 +1,15 @@
+@model ICollection<AboutModel>
+
+@foreach (var item in Model)
+{
+    <div class="card">
+        <div class="card-body">
+            <h5>@item.Title</h5> <span>
+                <i class=@item.IconName></i>
+            </span>
+            <p>
+                @item.Description
+            </p>
+        </div>
+    </div>
+}

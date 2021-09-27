@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -86,7 +86,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.10"
         },
         "compile": {
-          "lib/netstandard2.1/_._": {}
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -134,6 +134,18 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -649,6 +661,30 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.10": {
+      "sha512": "tZyRQ01KmPIGXO/jGGG9OrxKvFUckgq65FvGmYjwDazgBXIvfX2kdxXp2nN5gIQOiSMPMpRu8RDqI+2InyBuMg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/5.0.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/_._",
+        "microsoft.entityframeworkcore.tools.5.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
     "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "sha512": "bu8As90/SBAouMZ6fJ+qRNo1X+KgHGrVueFhhYi+E5WqEhcnp2HoWRFnMzXQ6g4RdZbvPowFerSbKNH4Dtg5yg==",
       "type": "package",
@@ -1123,8 +1159,10 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Design >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.10",
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.10",
       "business >= 1.0.0",
-      "data >= 1.0.0"
+      "data >= 1.0.0",
+      "entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1133,11 +1171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\uiweb.csproj",
+      "projectUniqueName": "C:\\Users\\umitk\\Desktop\\blog\\uiweb\\uiweb.csproj",
       "projectName": "uiweb",
-      "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\uiweb.csproj",
+      "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\uiweb\\uiweb.csproj",
       "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\obj\\",
+      "outputPath": "C:\\Users\\umitk\\Desktop\\blog\\uiweb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1152,11 +1190,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj": {
-              "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj"
+            "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj": {
+              "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj"
             },
-            "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj": {
-              "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj"
+            "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj": {
+              "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj"
+            },
+            "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj": {
+              "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj"
             }
           }
         }
@@ -1172,12 +1213,16 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.10, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "[5.0.10, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.10, )"
           }

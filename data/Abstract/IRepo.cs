@@ -4,8 +4,8 @@ namespace data.Abstract
 {
     public interface IRepo<T>
     {
-        T getById(int id);
-        void Delete(int id);
+        T GetById(int id);
+        void Delete(T entity);
 
         void Update(T entity);
         

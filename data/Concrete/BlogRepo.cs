@@ -4,26 +4,11 @@ using entity;
 
 namespace data.Concrete
 {
-    public class BlogRepo : IBlogRepo
+    public class BlogRepo : GenericRepo<Blog,BlogContext>
     {
-        public void Delete(int id)
-        {
-            throw new System.NotImplementedException();
-        }
+        
+        
 
-        public Blog getById(int id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public ICollection<Blog> GetAll()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Update(Blog entity)
-        {
-            throw new System.NotImplementedException();
-        }
+        
     }
 }

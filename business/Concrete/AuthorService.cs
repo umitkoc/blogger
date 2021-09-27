@@ -14,19 +14,25 @@ namespace business.Concrete
         {
             author = repo;
         }
-        public void Delete(int id)
+
+        public void Delete(Author entity)
         {
-            author.Delete(id);
+            author.Delete(entity);
+        }
+
+        public Author Get()
+        {
+           return author.Get();
         }
 
         public ICollection<Author> GetAll()
         {
-           return author.GetAll();
+            return author.GetAll();
         }
 
-        public Author getById(int id)
+        public Author GetById(int id)
         {
-            return author.getById(id);
+            return author.GetById(id);
         }
 
         public void Update(Author entity)

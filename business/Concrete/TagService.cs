@@ -12,9 +12,11 @@ namespace business.Concrete
         {
             tag=repo;
         }
-        public void Delete(int id)
+      
+
+        public void Delete(Tag entity)
         {
-            tag.Delete(id);
+            tag.Delete(entity);
         }
 
         public ICollection<Tag> GetAll()
@@ -22,9 +24,9 @@ namespace business.Concrete
           return tag.GetAll();
         }
 
-        public Tag getById(int id)
+        public Tag GetById(int id)
         {
-            return tag.getById(id);
+            return tag.GetById(id);
         }
 
         public void Update(Tag entity)

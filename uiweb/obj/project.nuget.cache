@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ssR8zqLYWlJV6dN8huVwtTgMCd1PR4WA5pssEScSR5wg/87TvA9YqcaWfD8khcIa0j2Z48mAeqIgSiQVySahQ==",
+  "dgSpecHash": "+IhH/vHFRVD8wxbWolQb+kNE5puiPkabXx9vH6AVdHUnAv2wXARi4sa4GDZI9M70tK6WnfNRHdx9uHfBTKNoDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\uiweb.csproj",
+  "projectFilePath": "C:\\Users\\umitk\\Desktop\\blog\\uiweb\\uiweb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umitk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -15,6 +15,7 @@
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.10\\microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.10\\microsoft.entityframeworkcore.sqlite.5.0.10.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.10\\microsoft.entityframeworkcore.sqlite.core.5.0.10.nupkg.sha512",
+    "C:\\Users\\umitk\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.10\\microsoft.entityframeworkcore.tools.5.0.10.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

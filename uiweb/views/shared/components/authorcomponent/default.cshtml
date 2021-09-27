@@ -1,0 +1,14 @@
+@model AuthorModel
+
+<div class="col-md-12">
+    <div class="card">
+        <img src="~/img/@Model.ImageUrl" alt="profile" class="card-img-top">
+        <div class="card-body">
+            <h5>@Model.FirstName</h5>
+            <h6>@Model.Job</h6>
+        </div>
+        <form class="d-md-none p-2">
+            @await Html.PartialAsync("_search")
+        </form>
+    </div>
+</div>

@@ -12,9 +12,11 @@ namespace business.Concrete
         {
             blog=repo;
         }
-        public void Delete(int id)
+      
+
+        public void Delete(Blog entity)
         {
-            blog.Delete(id);
+            blog.Delete(entity);
         }
 
         public ICollection<Blog> GetAll()
@@ -22,9 +24,9 @@ namespace business.Concrete
           return  blog.GetAll();
         }
 
-        public Blog getById(int id)
+        public Blog GetById(int id)
         {
-          return blog.getById(id);
+          return blog.GetById(id);
         }
 
         public void Update(Blog entity)

@@ -13566,6 +13566,74 @@
         }
       },
       {
+        "HashCode": 1307872648,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AboutViewComponentTagHelper",
+        "AssemblyName": "uiweb",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:about"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AboutViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "About"
+        }
+      },
+      {
+        "HashCode": -421562169,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AuthorViewComponentTagHelper",
+        "AssemblyName": "uiweb",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:author"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AuthorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Author"
+        }
+      },
+      {
+        "HashCode": -205760555,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__SocialViewComponentTagHelper",
+        "AssemblyName": "uiweb",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:social"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__SocialViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Social"
+        }
+      },
+      {
+        "HashCode": -586710504,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__TagViewComponentTagHelper",
+        "AssemblyName": "uiweb",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:tag"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__TagViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Tag"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15617,6 +15685,77 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "uiweb",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\components\\aboutcomponent\\default.cshtml",
+      "TargetPath": "views\\shared\\components\\aboutcomponent\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\home\\index.cshtml",
+      "TargetPath": "views\\home\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\admin\\login.cshtml",
+      "TargetPath": "views\\admin\\login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\home\\blog.cshtml",
+      "TargetPath": "views\\home\\blog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\components\\tagcomponent\\default.cshtml",
+      "TargetPath": "views\\shared\\components\\tagcomponent\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\components\\authorcomponent\\default.cshtml",
+      "TargetPath": "views\\shared\\components\\authorcomponent\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\_admin.cshtml",
+      "TargetPath": "views\\shared\\_admin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\admin\\forgot.cshtml",
+      "TargetPath": "views\\admin\\forgot.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\_search.cshtml",
+      "TargetPath": "views\\shared\\_search.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\components\\socialcomponent\\default.cshtml",
+      "TargetPath": "views\\shared\\components\\socialcomponent\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\_ViewStart.cshtml",
+      "TargetPath": "views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\_layout.cshtml",
+      "TargetPath": "views\\shared\\_layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\_ViewImports.cshtml",
+      "TargetPath": "views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\umitk\\Documents\\blogger\\uiweb\\views\\shared\\_navbar.cshtml",
+      "TargetPath": "views\\shared\\_navbar.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

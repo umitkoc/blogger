@@ -1,0 +1,20 @@
+@{
+    Layout = "_admin";
+}
+<div class="container">
+    <div class="row justify-content-center my-5">
+        <div class="col-md-4 mx-auto">
+            <div class="card p-4">
+                <img src="http://placeimg.com/640/480/people" alt="" class="card-img-top">
+                <form asp-controller="admin" asp-action="login" method="POST" class="form-group row">
+                    <div class="col-md-10 my-4 mx-auto">
+                        <input type="email" name="email" placeholder="email" class="form-control" required>
+                    </div>
+                    <div class="col-md-5  mx-auto my-4">
+                        <button type="submit" class="btn btn-primary px-5">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

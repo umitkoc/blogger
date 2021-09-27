@@ -4,9 +4,9 @@ namespace business.Abstract
 {
     public interface IService<T>
     {
-        T getById(int id);
+        T GetById(int id);
         ICollection<T> GetAll();
-        void Delete(int id);
+        void Delete(T entity);
         void Update(T entity);
     }
 }

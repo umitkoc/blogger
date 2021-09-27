@@ -1,0 +1,12 @@
+ <nav class="container navbar navbar-expand-lg navbar-light bg-light shadow-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-controller="home" asp-action="index">Ümit ~ KOÇ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-none d-md-block" asp-controller="home" asp-action="search" method="post">
+               @await Html.PartialAsync("_search")
+            </form>
+        </div>
+    </nav>

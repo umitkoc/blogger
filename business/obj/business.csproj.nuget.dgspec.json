@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj": {}
+    "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj": {
+    "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj",
+        "projectUniqueName": "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj",
         "projectName": "business",
-        "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj",
+        "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\business\\business.csproj",
         "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umitk\\Documents\\blogger\\business\\obj\\",
+        "outputPath": "C:\\Users\\umitk\\Desktop\\blog\\business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj": {
-                "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj"
+              "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj": {
+                "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj"
               },
-              "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj": {
-                "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj"
+              "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj": {
+                "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj": {
+    "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj",
+        "projectUniqueName": "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj",
         "projectName": "data",
-        "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj",
+        "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\data\\data.csproj",
         "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umitk\\Documents\\blogger\\data\\obj\\",
+        "outputPath": "C:\\Users\\umitk\\Desktop\\blog\\data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -85,8 +85,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj": {
-                "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj"
+              "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj": {
+                "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj": {
+    "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj",
+        "projectUniqueName": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj",
         "projectName": "entity",
-        "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj",
+        "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj",
         "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umitk\\Documents\\blogger\\entity\\obj\\",
+        "outputPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config"

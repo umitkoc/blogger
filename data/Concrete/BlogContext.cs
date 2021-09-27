@@ -5,6 +5,11 @@ namespace data.Concrete
 {
     public class BlogContext : DbContext
     {
+       public BlogContext()
+       {
+           
+       }
+
         public BlogContext(DbContextOptions<BlogContext> options) : base(options)
         {
 

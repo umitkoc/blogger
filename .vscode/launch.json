@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/uiweb/bin/Debug/net5.0/uiweb.dll",
+            "program": "${workspaceFolder}/uiweb/bin/Debug/net5.0/UIBlog.dll",
             "args": [],
             "cwd": "${workspaceFolder}/uiweb",
             "stopAtEntry": false,
