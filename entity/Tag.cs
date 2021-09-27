@@ -10,6 +10,5 @@ namespace entity
         public string TagName { get; set; }
         public bool IApproved { get; set; }
         public ICollection<Blog> Blogs { get; set; }
-        public int BogId { get; set; }
     }
 }

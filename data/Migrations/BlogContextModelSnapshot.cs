@@ -119,9 +119,6 @@ namespace data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("BogId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<bool>("IApproved")
                         .HasColumnType("INTEGER");
 

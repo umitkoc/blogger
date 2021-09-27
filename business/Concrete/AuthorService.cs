@@ -1,43 +1,28 @@
-using System.Collections.Generic;
 using business.Abstract;
 using data.Abstract;
 using entity;
 
 namespace business.Concrete
 {
+    
+    
     public class AuthorService : IAuthorService
     {
-       private IAuthorRepo author;
-
+        IAuthorRepo _author;
 
         public AuthorService(IAuthorRepo repo)
         {
-            author = repo;
-        }
-
-        public void Delete(Author entity)
-        {
-            author.Delete(entity);
+            _author = repo;
         }
 
         public Author Get()
         {
-           return author.Get();
+           return _author.Get();
         }
 
-        public ICollection<Author> GetAll()
+        public void Update(Author author)
         {
-            return author.GetAll();
-        }
-
-        public Author GetById(int id)
-        {
-            return author.GetById(id);
-        }
-
-        public void Update(Author entity)
-        {
-            author.Update(entity);
+            _author.Update(author);
         }
     }
 }

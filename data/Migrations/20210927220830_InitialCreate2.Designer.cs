@@ -9,8 +9,8 @@ using data.Concrete;
 namespace data.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20210927084528_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210927220830_InitialCreate2")]
+    partial class InitialCreate2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -119,9 +119,6 @@ namespace data.Migrations
                 {
                     b.Property<int>("TagId")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("BogId")
                         .HasColumnType("INTEGER");
 
                     b.Property<bool>("IApproved")

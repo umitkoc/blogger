@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj",
+      "projectUniqueName": "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj",
       "projectName": "entity",
-      "projectPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\entity.csproj",
+      "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\entity\\entity.csproj",
       "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umitk\\Desktop\\blog\\entity\\obj\\",
+      "outputPath": "C:\\Users\\umitk\\Documents\\blogger\\entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config"

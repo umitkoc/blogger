@@ -19,8 +19,15 @@ using uiweb.models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\umitk\Documents\blogger\uiweb\views\_ViewImports.cshtml"
+using entity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1eb5bd40c8c660d63402c79ab99d789ec16526cf", @"/views/shared/_admin.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"825b43eaa0e89b849133edcfb426d0731fe1ea9d", @"/views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99e73450e0b6b109eee3990b112403f1f6fb7c9e", @"/views/_ViewImports.cshtml")]
     public class views_shared__admin : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("bg-light"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -50,7 +57,7 @@ using uiweb.models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1eb5bd40c8c660d63402c79ab99d789ec16526cf3399", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1eb5bd40c8c660d63402c79ab99d789ec16526cf3559", async() => {
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>");
 #nullable restore
 #line 8 "C:\Users\umitk\Documents\blogger\uiweb\views\shared\_admin.cshtml"
@@ -77,7 +84,7 @@ using uiweb.models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1eb5bd40c8c660d63402c79ab99d789ec16526cf5132", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1eb5bd40c8c660d63402c79ab99d789ec16526cf5292", async() => {
                 WriteLiteral("\r\n\r\n\r\n\r\n\r\n    ");
 #nullable restore
 #line 20 "C:\Users\umitk\Documents\blogger\uiweb\views\shared\_admin.cshtml"

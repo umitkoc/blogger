@@ -13,7 +13,7 @@ namespace uiweb.components
 
 
         public IViewComponentResult Invoke(){
-            var author=_author.GetById(0);
+            var author=_author.Get();
             return View(author);
         }
     }

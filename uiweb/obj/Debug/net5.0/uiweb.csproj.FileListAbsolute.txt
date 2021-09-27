@@ -143,10 +143,6 @@ C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\admin\forgot
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\admin\login.cshtml.g.cs
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\home\blog.cshtml.g.cs
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\home\index.cshtml.g.cs
-C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\components\aboutcomponent\default.cshtml.g.cs
-C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\components\authorcomponent\default.cshtml.g.cs
-C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\components\socialcomponent\default.cshtml.g.cs
-C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\components\tagcomponent\default.cshtml.g.cs
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\_admin.cshtml.g.cs
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\_layout.cshtml.g.cs
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\_navbar.cshtml.g.cs
@@ -161,3 +157,7 @@ C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\uiweb.dll
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\ref\uiweb.dll
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\uiweb.pdb
 C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\uiweb.genruntimeconfig.cache
+C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\Components\Tag\default.cshtml.g.cs
+C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\Components\About\default.cshtml.g.cs
+C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\Components\Author\default.cshtml.g.cs
+C:\Users\umitk\Documents\blogger\uiweb\obj\Debug\net5.0\Razor\views\shared\Components\Social\default.cshtml.g.cs

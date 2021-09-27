@@ -5,10 +5,7 @@ namespace data.Concrete
 {
     public class BlogContext : DbContext
     {
-       public BlogContext()
-       {
-           
-       }
+
 
         public BlogContext(DbContextOptions<BlogContext> options) : base(options)
         {
@@ -20,8 +17,8 @@ namespace data.Concrete
         public DbSet<Tag> Tags { get; set; }
         public DbSet<About> Abouts { get; set; }
 
-        
-      
+
+
 
 
     }
