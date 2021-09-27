@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using business.Abstract;
 using entity;
 using Microsoft.AspNetCore.Mvc;
+using uiweb.models;
 
 namespace blog.controllers
 {
@@ -19,9 +20,9 @@ namespace blog.controllers
         [HttpGet]
         public IActionResult Index()
         {
-            ICollection<Blog> _blog = blogService.GetAll();
-
-            return View(_blog);
+            var _blogs=blogService.GetAll();
+            
+            return View(_blogs);
         }
         [HttpGet]
         public IActionResult Blog(int? id)

@@ -12,7 +12,6 @@ namespace business.Concrete
         {
             blog=repo;
         }
-      
 
         public void Delete(Blog entity)
         {

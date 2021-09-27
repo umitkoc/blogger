@@ -1,0 +1,24 @@
+@model Author
+
+@if (Model != null)
+{
+    <div class="col-md-12">
+        <div class="card">
+            <img src="~/img/@Model.ImageUrl" alt="profile" class="card-img-top">
+            <div class="card-body">
+                <h5>@Model.FirstName</h5>
+                <h6>@Model.Job</h6>
+            </div>
+            <form class="d-md-none p-2">
+                @await Html.PartialAsync("_search")
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <div class="col-md-12">
+
+        <div class="alert alert-danger">Not Author</div>
+    </div>
+}

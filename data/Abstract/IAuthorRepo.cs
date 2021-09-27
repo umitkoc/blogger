@@ -2,8 +2,9 @@ using entity;
 
 namespace data.Abstract
 {
-    public interface IAuthorRepo:IRepo<Author>
+    public interface IAuthorRepo
     {
         Author Get();
+        void Update(Author author);
     }
 }

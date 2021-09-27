@@ -29,10 +29,15 @@ namespace UIBlog
             services.AddScoped<IAuthorService, AuthorService>();
             services.AddScoped<IAboutService, AboutService>();
             services.AddScoped<ITagService, TagService>();
-            services.AddScoped<ISocialService,SocialService>();
+            services.AddScoped<ISocialService, SocialService>();
             services.AddDbContext<BlogContext>(
-                options =>options.UseSqlite(_configuration.GetConnectionString("Source"))
+                options => options.UseSqlite(_configuration.GetConnectionString("Source"))
             );
+            services.AddScoped<ISocialRepo, SocialRepo>();
+            services.AddScoped<IBlogRepo, BlogRepo>();
+            services.AddScoped<IAuthorRepo, AuthorRepo>();
+            services.AddScoped<IAboutRepo, AboutRepo>();
+            services.AddScoped<ITagRepo, TagRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,7 +47,7 @@ namespace UIBlog
             {
                 app.UseDeveloperExceptionPage();
             }
-           
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

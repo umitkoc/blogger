@@ -9,7 +9,7 @@ using data.Concrete;
 namespace data.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20210927084528_InitialCreate")]
+    [Migration("20210927203511_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

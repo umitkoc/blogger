@@ -19,8 +19,15 @@ using uiweb.models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\umitk\Documents\blogger\uiweb\views\_ViewImports.cshtml"
+using entity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f10f32fd6cfbbf3ffd6b6f97d64048ae7a27075c", @"/views/home/blog.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"825b43eaa0e89b849133edcfb426d0731fe1ea9d", @"/views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99e73450e0b6b109eee3990b112403f1f6fb7c9e", @"/views/_ViewImports.cshtml")]
     public class views_home_blog : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

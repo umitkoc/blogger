@@ -2,8 +2,9 @@ using entity;
 
 namespace business.Abstract
 {
-    public interface IAuthorService:IService<Author>
+    public interface IAuthorService
     {
-            Author Get();
+        Author Get();
+        void Update(Author author);
     }
 }

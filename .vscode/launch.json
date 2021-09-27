@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             // Use IntelliSense to find out which attributes exist for C# debugging
             // Use hover for the description of the existing attributes
@@ -9,6 +10,8 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
+            "console": "integratedTerminal",
+            "requireExactSource": false,
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/uiweb/bin/Debug/net5.0/UIBlog.dll",
             "args": [],
