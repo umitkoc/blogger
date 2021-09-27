@@ -1133,11 +1133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umitk\\Desktop\\blogger\\uiweb\\uiweb.csproj",
+      "projectUniqueName": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\uiweb.csproj",
       "projectName": "uiweb",
-      "projectPath": "C:\\Users\\umitk\\Desktop\\blogger\\uiweb\\uiweb.csproj",
+      "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\uiweb.csproj",
       "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umitk\\Desktop\\blogger\\uiweb\\obj\\",
+      "outputPath": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1152,11 +1152,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\umitk\\Desktop\\blogger\\business\\business.csproj": {
-              "projectPath": "C:\\Users\\umitk\\Desktop\\blogger\\business\\business.csproj"
+            "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj": {
+              "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\business\\business.csproj"
             },
-            "C:\\Users\\umitk\\Desktop\\blogger\\data\\data.csproj": {
-              "projectPath": "C:\\Users\\umitk\\Desktop\\blogger\\data\\data.csproj"
+            "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj": {
+              "projectPath": "C:\\Users\\umitk\\Documents\\blogger\\data\\data.csproj"
             }
           }
         }

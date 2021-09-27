@@ -10,3 +10,15 @@ C:\Users\umitk\Desktop\blogger\entity\obj\Debug\net5.0\entity.csproj.CoreCompile
 C:\Users\umitk\Desktop\blogger\entity\obj\Debug\net5.0\entity.dll
 C:\Users\umitk\Desktop\blogger\entity\obj\Debug\net5.0\ref\entity.dll
 C:\Users\umitk\Desktop\blogger\entity\obj\Debug\net5.0\entity.pdb
+C:\Users\umitk\Documents\blogger\entity\bin\Debug\net5.0\entity.deps.json
+C:\Users\umitk\Documents\blogger\entity\bin\Debug\net5.0\entity.dll
+C:\Users\umitk\Documents\blogger\entity\bin\Debug\net5.0\ref\entity.dll
+C:\Users\umitk\Documents\blogger\entity\bin\Debug\net5.0\entity.pdb
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.csproj.AssemblyReference.cache
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.AssemblyInfoInputs.cache
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.AssemblyInfo.cs
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.csproj.CoreCompileInputs.cache
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.dll
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\ref\entity.dll
+C:\Users\umitk\Documents\blogger\entity\obj\Debug\net5.0\entity.pdb
