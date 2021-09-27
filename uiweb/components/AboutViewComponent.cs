@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using data.Abstract;
+using business.Abstract;
 using entity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,8 +8,8 @@ namespace uiweb.components
     public class AboutViewComponent:ViewComponent
     {
 
-        IAboutRepo _about;
-        public AboutViewComponent(IAboutRepo repo)
+        IAboutService _about;
+        public AboutViewComponent(IAboutService repo)
         {
             _about=repo;
         }

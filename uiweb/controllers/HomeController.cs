@@ -1,6 +1,5 @@
-using System;
 using System.Collections.Generic;
-using data.Abstract;
+using business.Abstract;
 using entity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,11 +7,11 @@ namespace blog.controllers
 {
     public class HomeController : Controller
     {
-        IBlogRepo blog;
+        IBlogService blogService;
 
-        public HomeController(IBlogRepo repo)
+        public HomeController(IBlogService repo)
         {
-            blog = repo;
+            blogService = repo;
         }
 
 
@@ -20,7 +19,7 @@ namespace blog.controllers
         [HttpGet]
         public IActionResult Index()
         {
-            ICollection<Blog> _blog = blog.GetAll();
+            ICollection<Blog> _blog = blogService.GetAll();
 
             return View(_blog);
         }

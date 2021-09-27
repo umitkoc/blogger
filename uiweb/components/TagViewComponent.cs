@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using business.Abstract;
 using data.Abstract;
 using entity;
 using Microsoft.AspNetCore.Mvc;
@@ -7,8 +8,8 @@ namespace uiweb.components
 {
     public class TagViewComponent:ViewComponent
     {
-        ITagRepo tagRepo;
-        public TagViewComponent(ITagRepo tag)
+        ITagService tagRepo;
+        public TagViewComponent(ITagService tag)
         {
             tagRepo=tag;
         }

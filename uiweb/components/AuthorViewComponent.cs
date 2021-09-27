@@ -1,12 +1,12 @@
-using data.Abstract;
+using business.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
 namespace uiweb.components
 {
     public class AuthorViewComponent:ViewComponent
     {
-        IAuthorRepo _author;
-        public AuthorViewComponent(IAuthorRepo repo)
+        IAuthorService _author;
+        public AuthorViewComponent(IAuthorService repo)
         {
             _author = repo;
         }

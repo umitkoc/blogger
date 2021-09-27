@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using business.Abstract;
 using data.Abstract;
 using entity;
 using Microsoft.AspNetCore.Mvc;
@@ -7,8 +8,8 @@ namespace uiweb.components
 {
     public class SocialViewComponent:ViewComponent
     {
-        ISocialRepo _social;
-        public SocialViewComponent(ISocialRepo repo)
+        ISocialService _social;
+        public SocialViewComponent(ISocialService repo)
         {
             _social = repo;
         }

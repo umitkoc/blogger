@@ -25,22 +25,14 @@ namespace UIBlog
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
-
             services.AddScoped<IBlogService, BlogService>();
             services.AddScoped<IAuthorService, AuthorService>();
             services.AddScoped<IAboutService, AboutService>();
             services.AddScoped<ITagService, TagService>();
             services.AddScoped<ISocialService,SocialService>();
-            
-            
-
             services.AddDbContext<BlogContext>(
-                options =>options.UseSqlite("Data Source= Blog.db")
+                options =>options.UseSqlite(_configuration.GetConnectionString("Source"))
             );
-
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

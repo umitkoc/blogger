@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+IhH/vHFRVD8wxbWolQb+kNE5puiPkabXx9vH6AVdHUnAv2wXARi4sa4GDZI9M70tK6WnfNRHdx9uHfBTKNoDg==",
+  "dgSpecHash": "9kf2NrOC/Rz6JxG0ilzfriGOq/VD6zT1fKpcxYfZnqjujGSW9vw6yJ+UU5Ju5lXG0VdhPjENGSotR74JFq8HbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\umitk\\Desktop\\blog\\uiweb\\uiweb.csproj",
+  "projectFilePath": "C:\\Users\\umitk\\Documents\\blogger\\uiweb\\uiweb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umitk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
